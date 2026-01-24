@@ -23,7 +23,7 @@ Here's the simplest possible way to add autocomplete to your Textual app:
 ```python
 from textual.app import App, ComposeResult
 from textual.widgets import Input
-from textual_autocomplete import AutoComplete, DropdownItem
+from textual_autocomplete import AutoComplete
 
 class ColorFinder(App):
     def compose(self) -> ComposeResult:
